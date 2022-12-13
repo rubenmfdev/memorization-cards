@@ -15,6 +15,11 @@
 		DB707B5629477A9D00F780CD /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB707B2C29477A9900F780CD /* ContentView.swift */; };
 		DB707B5729477A9D00F780CD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DB707B2D29477A9D00F780CD /* Assets.xcassets */; };
 		DB707B5829477A9D00F780CD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DB707B2D29477A9D00F780CD /* Assets.xcassets */; };
+		DB707B77294784EC00F780CD /* CategoriesListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB707B76294784EC00F780CD /* CategoriesListView.swift */; };
+		DB707B7A294784FB00F780CD /* CategoriesListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB707B79294784FB00F780CD /* CategoriesListViewModel.swift */; };
+		DB707B7D2947851800F780CD /* CategoryCellView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB707B7C2947851800F780CD /* CategoryCellView.swift */; };
+		DB707B7F2947852C00F780CD /* CardsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB707B7E2947852C00F780CD /* CardsView.swift */; };
+		DB707B812947853500F780CD /* CardsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB707B802947853500F780CD /* CardsViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,6 +50,11 @@
 		DB707B4329477A9D00F780CD /* Tests_iOS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_iOS.swift; sourceTree = "<group>"; };
 		DB707B4529477A9D00F780CD /* Tests_iOSLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_iOSLaunchTests.swift; sourceTree = "<group>"; };
 		DB707B4B29477A9D00F780CD /* Tests macOS.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Tests macOS.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DB707B76294784EC00F780CD /* CategoriesListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoriesListView.swift; sourceTree = "<group>"; };
+		DB707B79294784FB00F780CD /* CategoriesListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoriesListViewModel.swift; sourceTree = "<group>"; };
+		DB707B7C2947851800F780CD /* CategoryCellView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryCellView.swift; sourceTree = "<group>"; };
+		DB707B7E2947852C00F780CD /* CardsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardsView.swift; sourceTree = "<group>"; };
+		DB707B802947853500F780CD /* CardsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardsViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -133,6 +143,8 @@
 		DB707B6729477B3700F780CD /* Presentation */ = {
 			isa = PBXGroup;
 			children = (
+				DB707B742947849800F780CD /* Cards */,
+				DB707B732947848600F780CD /* CategoriesList */,
 				DB707B2C29477A9900F780CD /* ContentView.swift */,
 			);
 			path = Presentation;
@@ -221,6 +233,33 @@
 			children = (
 			);
 			path = Repositories;
+			sourceTree = "<group>";
+		};
+		DB707B732947848600F780CD /* CategoriesList */ = {
+			isa = PBXGroup;
+			children = (
+				DB707B7B2947850400F780CD /* CategoryCell */,
+				DB707B76294784EC00F780CD /* CategoriesListView.swift */,
+				DB707B79294784FB00F780CD /* CategoriesListViewModel.swift */,
+			);
+			path = CategoriesList;
+			sourceTree = "<group>";
+		};
+		DB707B742947849800F780CD /* Cards */ = {
+			isa = PBXGroup;
+			children = (
+				DB707B7E2947852C00F780CD /* CardsView.swift */,
+				DB707B802947853500F780CD /* CardsViewModel.swift */,
+			);
+			path = Cards;
+			sourceTree = "<group>";
+		};
+		DB707B7B2947850400F780CD /* CategoryCell */ = {
+			isa = PBXGroup;
+			children = (
+				DB707B7C2947851800F780CD /* CategoryCellView.swift */,
+			);
+			path = CategoryCell;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -381,8 +420,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DB707B7F2947852C00F780CD /* CardsView.swift in Sources */,
+				DB707B812947853500F780CD /* CardsViewModel.swift in Sources */,
 				DB707B5529477A9D00F780CD /* ContentView.swift in Sources */,
+				DB707B7D2947851800F780CD /* CategoryCellView.swift in Sources */,
 				DB707B5329477A9D00F780CD /* MemorizationCardsApp.swift in Sources */,
+				DB707B7A294784FB00F780CD /* CategoriesListViewModel.swift in Sources */,
+				DB707B77294784EC00F780CD /* CategoriesListView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
