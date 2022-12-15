@@ -11,7 +11,9 @@ import SwiftUI
 struct MemorizationCardsApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            NavigationView {
+                CategoriesListView()
+            }
         }
     }
 }

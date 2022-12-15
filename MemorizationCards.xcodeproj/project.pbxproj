@@ -7,19 +7,22 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		DB21A1F6294B5FEB00E2D22E /* FlippingCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB21A1F5294B5FEB00E2D22E /* FlippingCard.swift */; };
+		DB21A1F8294B67BE00E2D22E /* CardsExerciceVDR.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB21A1F7294B67BE00E2D22E /* CardsExerciceVDR.swift */; };
+		DB21A1FB294B6A0000E2D22E /* Queue.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB21A1FA294B6A0000E2D22E /* Queue.swift */; };
 		DB707B4429477A9D00F780CD /* Tests_iOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB707B4329477A9D00F780CD /* Tests_iOS.swift */; };
 		DB707B4629477A9D00F780CD /* Tests_iOSLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB707B4529477A9D00F780CD /* Tests_iOSLaunchTests.swift */; };
 		DB707B5329477A9D00F780CD /* MemorizationCardsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB707B2B29477A9900F780CD /* MemorizationCardsApp.swift */; };
 		DB707B5429477A9D00F780CD /* MemorizationCardsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB707B2B29477A9900F780CD /* MemorizationCardsApp.swift */; };
-		DB707B5529477A9D00F780CD /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB707B2C29477A9900F780CD /* ContentView.swift */; };
-		DB707B5629477A9D00F780CD /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB707B2C29477A9900F780CD /* ContentView.swift */; };
 		DB707B5729477A9D00F780CD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DB707B2D29477A9D00F780CD /* Assets.xcassets */; };
 		DB707B5829477A9D00F780CD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DB707B2D29477A9D00F780CD /* Assets.xcassets */; };
 		DB707B77294784EC00F780CD /* CategoriesListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB707B76294784EC00F780CD /* CategoriesListView.swift */; };
 		DB707B7A294784FB00F780CD /* CategoriesListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB707B79294784FB00F780CD /* CategoriesListViewModel.swift */; };
 		DB707B7D2947851800F780CD /* CategoryCellView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB707B7C2947851800F780CD /* CategoryCellView.swift */; };
-		DB707B7F2947852C00F780CD /* CardsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB707B7E2947852C00F780CD /* CardsView.swift */; };
-		DB707B812947853500F780CD /* CardsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB707B802947853500F780CD /* CardsViewModel.swift */; };
+		DB707B7F2947852C00F780CD /* CardsExerciceView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB707B7E2947852C00F780CD /* CardsExerciceView.swift */; };
+		DB707B812947853500F780CD /* CardsExerciceViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB707B802947853500F780CD /* CardsExerciceViewModel.swift */; };
+		DB9F75792948BF9A00E8D6B8 /* CategoryVDR.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB9F75782948BF9A00E8D6B8 /* CategoryVDR.swift */; };
+		DB9F757B2948C42200E8D6B8 /* Colors.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB9F757A2948C42200E8D6B8 /* Colors.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,8 +43,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		DB21A1F5294B5FEB00E2D22E /* FlippingCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlippingCard.swift; sourceTree = "<group>"; };
+		DB21A1F7294B67BE00E2D22E /* CardsExerciceVDR.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardsExerciceVDR.swift; sourceTree = "<group>"; };
+		DB21A1FA294B6A0000E2D22E /* Queue.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Queue.swift; sourceTree = "<group>"; };
 		DB707B2B29477A9900F780CD /* MemorizationCardsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemorizationCardsApp.swift; sourceTree = "<group>"; };
-		DB707B2C29477A9900F780CD /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		DB707B2D29477A9D00F780CD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DB707B3229477A9D00F780CD /* MemorizationCards.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MemorizationCards.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DB707B3829477A9D00F780CD /* MemorizationCards.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MemorizationCards.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -53,8 +58,10 @@
 		DB707B76294784EC00F780CD /* CategoriesListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoriesListView.swift; sourceTree = "<group>"; };
 		DB707B79294784FB00F780CD /* CategoriesListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoriesListViewModel.swift; sourceTree = "<group>"; };
 		DB707B7C2947851800F780CD /* CategoryCellView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryCellView.swift; sourceTree = "<group>"; };
-		DB707B7E2947852C00F780CD /* CardsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardsView.swift; sourceTree = "<group>"; };
-		DB707B802947853500F780CD /* CardsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardsViewModel.swift; sourceTree = "<group>"; };
+		DB707B7E2947852C00F780CD /* CardsExerciceView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardsExerciceView.swift; sourceTree = "<group>"; };
+		DB707B802947853500F780CD /* CardsExerciceViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardsExerciceViewModel.swift; sourceTree = "<group>"; };
+		DB9F75782948BF9A00E8D6B8 /* CategoryVDR.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryVDR.swift; sourceTree = "<group>"; };
+		DB9F757A2948C42200E8D6B8 /* Colors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Colors.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -89,6 +96,22 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		DB21A1F4294B5FC400E2D22E /* FlippingCard */ = {
+			isa = PBXGroup;
+			children = (
+				DB21A1F5294B5FEB00E2D22E /* FlippingCard.swift */,
+			);
+			path = FlippingCard;
+			sourceTree = "<group>";
+		};
+		DB21A1F9294B69F300E2D22E /* Logic */ = {
+			isa = PBXGroup;
+			children = (
+				DB21A1FA294B6A0000E2D22E /* Queue.swift */,
+			);
+			path = Logic;
+			sourceTree = "<group>";
+		};
 		DB707B2529477A9900F780CD = {
 			isa = PBXGroup;
 			children = (
@@ -143,9 +166,8 @@
 		DB707B6729477B3700F780CD /* Presentation */ = {
 			isa = PBXGroup;
 			children = (
-				DB707B742947849800F780CD /* Cards */,
+				DB707B742947849800F780CD /* CardsExercice */,
 				DB707B732947848600F780CD /* CategoriesList */,
-				DB707B2C29477A9900F780CD /* ContentView.swift */,
 			);
 			path = Presentation;
 			sourceTree = "<group>";
@@ -173,6 +195,7 @@
 			isa = PBXGroup;
 			children = (
 				DB707B2D29477A9D00F780CD /* Assets.xcassets */,
+				DB9F757A2948C42200E8D6B8 /* Colors.swift */,
 			);
 			path = Resources;
 			sourceTree = "<group>";
@@ -180,6 +203,7 @@
 		DB707B6B29477EC500F780CD /* Utils */ = {
 			isa = PBXGroup;
 			children = (
+				DB21A1F9294B69F300E2D22E /* Logic */,
 				DB707B6D29477ED000F780CD /* View */,
 				DB707B6C29477ECA00F780CD /* Extensions */,
 			);
@@ -196,6 +220,7 @@
 		DB707B6D29477ED000F780CD /* View */ = {
 			isa = PBXGroup;
 			children = (
+				DB21A1F4294B5FC400E2D22E /* FlippingCard */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -241,17 +266,19 @@
 				DB707B7B2947850400F780CD /* CategoryCell */,
 				DB707B76294784EC00F780CD /* CategoriesListView.swift */,
 				DB707B79294784FB00F780CD /* CategoriesListViewModel.swift */,
+				DB9F75782948BF9A00E8D6B8 /* CategoryVDR.swift */,
 			);
 			path = CategoriesList;
 			sourceTree = "<group>";
 		};
-		DB707B742947849800F780CD /* Cards */ = {
+		DB707B742947849800F780CD /* CardsExercice */ = {
 			isa = PBXGroup;
 			children = (
-				DB707B7E2947852C00F780CD /* CardsView.swift */,
-				DB707B802947853500F780CD /* CardsViewModel.swift */,
+				DB707B7E2947852C00F780CD /* CardsExerciceView.swift */,
+				DB707B802947853500F780CD /* CardsExerciceViewModel.swift */,
+				DB21A1F7294B67BE00E2D22E /* CardsExerciceVDR.swift */,
 			);
-			path = Cards;
+			path = CardsExercice;
 			sourceTree = "<group>";
 		};
 		DB707B7B2947850400F780CD /* CategoryCell */ = {
@@ -420,13 +447,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DB707B7F2947852C00F780CD /* CardsView.swift in Sources */,
-				DB707B812947853500F780CD /* CardsViewModel.swift in Sources */,
-				DB707B5529477A9D00F780CD /* ContentView.swift in Sources */,
+				DB707B7F2947852C00F780CD /* CardsExerciceView.swift in Sources */,
+				DB9F757B2948C42200E8D6B8 /* Colors.swift in Sources */,
+				DB707B812947853500F780CD /* CardsExerciceViewModel.swift in Sources */,
+				DB21A1FB294B6A0000E2D22E /* Queue.swift in Sources */,
 				DB707B7D2947851800F780CD /* CategoryCellView.swift in Sources */,
 				DB707B5329477A9D00F780CD /* MemorizationCardsApp.swift in Sources */,
 				DB707B7A294784FB00F780CD /* CategoriesListViewModel.swift in Sources */,
+				DB9F75792948BF9A00E8D6B8 /* CategoryVDR.swift in Sources */,
 				DB707B77294784EC00F780CD /* CategoriesListView.swift in Sources */,
+				DB21A1F8294B67BE00E2D22E /* CardsExerciceVDR.swift in Sources */,
+				DB21A1F6294B5FEB00E2D22E /* FlippingCard.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -434,7 +465,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DB707B5629477A9D00F780CD /* ContentView.swift in Sources */,
 				DB707B5429477A9D00F780CD /* MemorizationCardsApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
