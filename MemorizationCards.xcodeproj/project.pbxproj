@@ -30,6 +30,15 @@
 		DBB316E5294C820F0087E8C4 /* CategoriesDataRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBB316E4294C820F0087E8C4 /* CategoriesDataRepository.swift */; };
 		DBB316E8294C860B0087E8C4 /* CategoryProjectStorageDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBB316E7294C860B0087E8C4 /* CategoryProjectStorageDataSource.swift */; };
 		DBB316EC294C866A0087E8C4 /* CategoryDTO.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBB316EB294C866A0087E8C4 /* CategoryDTO.swift */; };
+		DBB316EF294CA1D20087E8C4 /* SwiftCSV in Frameworks */ = {isa = PBXBuildFile; productRef = DBB316EE294CA1D20087E8C4 /* SwiftCSV */; };
+		DBB316F2294CA7690087E8C4 /* colors.csv in Resources */ = {isa = PBXBuildFile; fileRef = DBB316F1294CA7690087E8C4 /* colors.csv */; };
+		DBB316F9294CC9B00087E8C4 /* animals.csv in Resources */ = {isa = PBXBuildFile; fileRef = DBB316F3294CC9B00087E8C4 /* animals.csv */; };
+		DBB316FA294CC9B00087E8C4 /* fruits.csv in Resources */ = {isa = PBXBuildFile; fileRef = DBB316F4294CC9B00087E8C4 /* fruits.csv */; };
+		DBB316FB294CC9B00087E8C4 /* food.csv in Resources */ = {isa = PBXBuildFile; fileRef = DBB316F5294CC9B00087E8C4 /* food.csv */; };
+		DBB316FC294CC9B00087E8C4 /* cloths.csv in Resources */ = {isa = PBXBuildFile; fileRef = DBB316F6294CC9B00087E8C4 /* cloths.csv */; };
+		DBB316FD294CC9B00087E8C4 /* professions.csv in Resources */ = {isa = PBXBuildFile; fileRef = DBB316F7294CC9B00087E8C4 /* professions.csv */; };
+		DBB316FE294CC9B00087E8C4 /* verbs.csv in Resources */ = {isa = PBXBuildFile; fileRef = DBB316F8294CC9B00087E8C4 /* verbs.csv */; };
+		DBB31700294CCD600087E8C4 /* irregular verbs.csv in Resources */ = {isa = PBXBuildFile; fileRef = DBB316FF294CCD600087E8C4 /* irregular verbs.csv */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -76,6 +85,14 @@
 		DBB316E4294C820F0087E8C4 /* CategoriesDataRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoriesDataRepository.swift; sourceTree = "<group>"; };
 		DBB316E7294C860B0087E8C4 /* CategoryProjectStorageDataSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryProjectStorageDataSource.swift; sourceTree = "<group>"; };
 		DBB316EB294C866A0087E8C4 /* CategoryDTO.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryDTO.swift; sourceTree = "<group>"; };
+		DBB316F1294CA7690087E8C4 /* colors.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = colors.csv; sourceTree = "<group>"; };
+		DBB316F3294CC9B00087E8C4 /* animals.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = animals.csv; sourceTree = "<group>"; };
+		DBB316F4294CC9B00087E8C4 /* fruits.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = fruits.csv; sourceTree = "<group>"; };
+		DBB316F5294CC9B00087E8C4 /* food.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = food.csv; sourceTree = "<group>"; };
+		DBB316F6294CC9B00087E8C4 /* cloths.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = cloths.csv; sourceTree = "<group>"; };
+		DBB316F7294CC9B00087E8C4 /* professions.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = professions.csv; sourceTree = "<group>"; };
+		DBB316F8294CC9B00087E8C4 /* verbs.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = verbs.csv; sourceTree = "<group>"; };
+		DBB316FF294CCD600087E8C4 /* irregular verbs.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "irregular verbs.csv"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,6 +100,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DBB316EF294CA1D20087E8C4 /* SwiftCSV in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -212,6 +230,7 @@
 		DB707B6A29477EBB00F780CD /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				DBB316F0294CA7690087E8C4 /* CSV */,
 				DB707B2D29477A9D00F780CD /* Assets.xcassets */,
 				DB9F757A2948C42200E8D6B8 /* Colors.swift */,
 			);
@@ -422,6 +441,21 @@
 			path = Category;
 			sourceTree = "<group>";
 		};
+		DBB316F0294CA7690087E8C4 /* CSV */ = {
+			isa = PBXGroup;
+			children = (
+				DBB316FF294CCD600087E8C4 /* irregular verbs.csv */,
+				DBB316F3294CC9B00087E8C4 /* animals.csv */,
+				DBB316F6294CC9B00087E8C4 /* cloths.csv */,
+				DBB316F5294CC9B00087E8C4 /* food.csv */,
+				DBB316F4294CC9B00087E8C4 /* fruits.csv */,
+				DBB316F7294CC9B00087E8C4 /* professions.csv */,
+				DBB316F8294CC9B00087E8C4 /* verbs.csv */,
+				DBB316F1294CA7690087E8C4 /* colors.csv */,
+			);
+			path = CSV;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -438,6 +472,9 @@
 			dependencies = (
 			);
 			name = "MemorizationCards (iOS)";
+			packageProductDependencies = (
+				DBB316EE294CA1D20087E8C4 /* SwiftCSV */,
+			);
 			productName = "MemorizationCards (iOS)";
 			productReference = DB707B3229477A9D00F780CD /* MemorizationCards.app */;
 			productType = "com.apple.product-type.application";
@@ -530,6 +567,9 @@
 				Base,
 			);
 			mainGroup = DB707B2529477A9900F780CD;
+			packageReferences = (
+				DBB316ED294CA1D20087E8C4 /* XCRemoteSwiftPackageReference "SwiftCSV" */,
+			);
 			productRefGroup = DB707B3329477A9D00F780CD /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -547,7 +587,15 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DBB316F2294CA7690087E8C4 /* colors.csv in Resources */,
+				DBB31700294CCD600087E8C4 /* irregular verbs.csv in Resources */,
+				DBB316FA294CC9B00087E8C4 /* fruits.csv in Resources */,
+				DBB316FB294CC9B00087E8C4 /* food.csv in Resources */,
 				DB707B5729477A9D00F780CD /* Assets.xcassets in Resources */,
+				DBB316FD294CC9B00087E8C4 /* professions.csv in Resources */,
+				DBB316FE294CC9B00087E8C4 /* verbs.csv in Resources */,
+				DBB316F9294CC9B00087E8C4 /* animals.csv in Resources */,
+				DBB316FC294CC9B00087E8C4 /* cloths.csv in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -985,6 +1033,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		DBB316ED294CA1D20087E8C4 /* XCRemoteSwiftPackageReference "SwiftCSV" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/swiftcsv/SwiftCSV";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 0.8.1;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		DBB316EE294CA1D20087E8C4 /* SwiftCSV */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = DBB316ED294CA1D20087E8C4 /* XCRemoteSwiftPackageReference "SwiftCSV" */;
+			productName = SwiftCSV;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = DB707B2629477A9900F780CD /* Project object */;
 }
