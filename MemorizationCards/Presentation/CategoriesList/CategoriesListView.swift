@@ -21,11 +21,11 @@ struct CategoriesListView: View {
     var body: some View {
         ScrollView(showsIndicators: false) {
             LazyVStack {
-                ForEach(CategoryVDR.mockList) { category in
+                ForEach(self.viewModel.categories) { category in
                     NavigationLink {
                         CardsExerciceView(
                             viewModel: CardsExerciceViewModel(
-                                cardsExerciceVDR: .mock
+                                cardsExerciceVDR: self.viewModel.getCardExercice(category: category.entity)
                             )
                         )
                     } label: {

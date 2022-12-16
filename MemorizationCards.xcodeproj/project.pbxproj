@@ -23,6 +23,13 @@
 		DB707B812947853500F780CD /* CardsExerciceViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB707B802947853500F780CD /* CardsExerciceViewModel.swift */; };
 		DB9F75792948BF9A00E8D6B8 /* CategoryVDR.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB9F75782948BF9A00E8D6B8 /* CategoryVDR.swift */; };
 		DB9F757B2948C42200E8D6B8 /* Colors.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB9F757A2948C42200E8D6B8 /* Colors.swift */; };
+		DBB316DC294C7BC00087E8C4 /* GetCategoryUseCase.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBB316DB294C7BC00087E8C4 /* GetCategoryUseCase.swift */; };
+		DBB316DE294C7C730087E8C4 /* CategoryEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBB316DD294C7C730087E8C4 /* CategoryEntity.swift */; };
+		DBB316E1294C7DFF0087E8C4 /* ErrorEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBB316E0294C7DFF0087E8C4 /* ErrorEntity.swift */; };
+		DBB316E3294C80260087E8C4 /* CategoriesRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBB316E2294C80260087E8C4 /* CategoriesRepository.swift */; };
+		DBB316E5294C820F0087E8C4 /* CategoriesDataRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBB316E4294C820F0087E8C4 /* CategoriesDataRepository.swift */; };
+		DBB316E8294C860B0087E8C4 /* CategoryProjectStorageDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBB316E7294C860B0087E8C4 /* CategoryProjectStorageDataSource.swift */; };
+		DBB316EC294C866A0087E8C4 /* CategoryDTO.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBB316EB294C866A0087E8C4 /* CategoryDTO.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -62,6 +69,13 @@
 		DB707B802947853500F780CD /* CardsExerciceViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardsExerciceViewModel.swift; sourceTree = "<group>"; };
 		DB9F75782948BF9A00E8D6B8 /* CategoryVDR.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryVDR.swift; sourceTree = "<group>"; };
 		DB9F757A2948C42200E8D6B8 /* Colors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Colors.swift; sourceTree = "<group>"; };
+		DBB316DB294C7BC00087E8C4 /* GetCategoryUseCase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GetCategoryUseCase.swift; sourceTree = "<group>"; };
+		DBB316DD294C7C730087E8C4 /* CategoryEntity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryEntity.swift; sourceTree = "<group>"; };
+		DBB316E0294C7DFF0087E8C4 /* ErrorEntity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ErrorEntity.swift; sourceTree = "<group>"; };
+		DBB316E2294C80260087E8C4 /* CategoriesRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoriesRepository.swift; sourceTree = "<group>"; };
+		DBB316E4294C820F0087E8C4 /* CategoriesDataRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoriesDataRepository.swift; sourceTree = "<group>"; };
+		DBB316E7294C860B0087E8C4 /* CategoryProjectStorageDataSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryProjectStorageDataSource.swift; sourceTree = "<group>"; };
+		DBB316EB294C866A0087E8C4 /* CategoryDTO.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryDTO.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -207,6 +221,7 @@
 		DB707B6B29477EC500F780CD /* Utils */ = {
 			isa = PBXGroup;
 			children = (
+				DBB316DF294C7DF30087E8C4 /* Error */,
 				DB21A1F9294B69F300E2D22E /* Logic */,
 				DB707B6D29477ED000F780CD /* View */,
 				DB707B6C29477ECA00F780CD /* Extensions */,
@@ -232,6 +247,7 @@
 		DB707B6E29477EE600F780CD /* Repositories */ = {
 			isa = PBXGroup;
 			children = (
+				DBB316E4294C820F0087E8C4 /* CategoriesDataRepository.swift */,
 			);
 			path = Repositories;
 			sourceTree = "<group>";
@@ -239,6 +255,7 @@
 		DB707B6F29477EF300F780CD /* DataSources */ = {
 			isa = PBXGroup;
 			children = (
+				DBB316E6294C85F40087E8C4 /* ProjectStorage */,
 			);
 			path = DataSources;
 			sourceTree = "<group>";
@@ -246,6 +263,7 @@
 		DB707B7029477EFC00F780CD /* Entities */ = {
 			isa = PBXGroup;
 			children = (
+				DBB316DD294C7C730087E8C4 /* CategoryEntity.swift */,
 			);
 			path = Entities;
 			sourceTree = "<group>";
@@ -253,6 +271,7 @@
 		DB707B7129477F0300F780CD /* UseCases */ = {
 			isa = PBXGroup;
 			children = (
+				DBB316DB294C7BC00087E8C4 /* GetCategoryUseCase.swift */,
 			);
 			path = UseCases;
 			sourceTree = "<group>";
@@ -260,6 +279,7 @@
 		DB707B7229477F0900F780CD /* Repositories */ = {
 			isa = PBXGroup;
 			children = (
+				DBB316E2294C80260087E8C4 /* CategoriesRepository.swift */,
 			);
 			path = Repositories;
 			sourceTree = "<group>";
@@ -375,6 +395,31 @@
 			children = (
 			);
 			path = DataSources;
+			sourceTree = "<group>";
+		};
+		DBB316DF294C7DF30087E8C4 /* Error */ = {
+			isa = PBXGroup;
+			children = (
+				DBB316E0294C7DFF0087E8C4 /* ErrorEntity.swift */,
+			);
+			path = Error;
+			sourceTree = "<group>";
+		};
+		DBB316E6294C85F40087E8C4 /* ProjectStorage */ = {
+			isa = PBXGroup;
+			children = (
+				DBB316E9294C861B0087E8C4 /* Category */,
+			);
+			path = ProjectStorage;
+			sourceTree = "<group>";
+		};
+		DBB316E9294C861B0087E8C4 /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				DBB316E7294C860B0087E8C4 /* CategoryProjectStorageDataSource.swift */,
+				DBB316EB294C866A0087E8C4 /* CategoryDTO.swift */,
+			);
+			path = Category;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -537,15 +582,22 @@
 			files = (
 				DB707B7F2947852C00F780CD /* CardsExerciceView.swift in Sources */,
 				DB9F757B2948C42200E8D6B8 /* Colors.swift in Sources */,
+				DBB316DC294C7BC00087E8C4 /* GetCategoryUseCase.swift in Sources */,
+				DBB316E8294C860B0087E8C4 /* CategoryProjectStorageDataSource.swift in Sources */,
 				DB707B812947853500F780CD /* CardsExerciceViewModel.swift in Sources */,
 				DB21A1FB294B6A0000E2D22E /* Queue.swift in Sources */,
+				DBB316E1294C7DFF0087E8C4 /* ErrorEntity.swift in Sources */,
+				DBB316E3294C80260087E8C4 /* CategoriesRepository.swift in Sources */,
 				DB707B7D2947851800F780CD /* CategoryCellView.swift in Sources */,
 				DB707B5329477A9D00F780CD /* MemorizationCardsApp.swift in Sources */,
+				DBB316E5294C820F0087E8C4 /* CategoriesDataRepository.swift in Sources */,
 				DB707B7A294784FB00F780CD /* CategoriesListViewModel.swift in Sources */,
 				DB9F75792948BF9A00E8D6B8 /* CategoryVDR.swift in Sources */,
 				DB707B77294784EC00F780CD /* CategoriesListView.swift in Sources */,
 				DB21A1F8294B67BE00E2D22E /* CardsExerciceVDR.swift in Sources */,
+				DBB316DE294C7C730087E8C4 /* CategoryEntity.swift in Sources */,
 				DB21A1F6294B5FEB00E2D22E /* FlippingCard.swift in Sources */,
+				DBB316EC294C866A0087E8C4 /* CategoryDTO.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

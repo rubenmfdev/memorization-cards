@@ -11,18 +11,25 @@ import SwiftUI
 struct CategoryVDR: Identifiable {
     let id = UUID()
     var name: String
+    let entity: CategoryEntity
 }
 
 extension CategoryVDR {
     static var mock: Self {
-        return CategoryVDR(name: "Test")
+        return CategoryVDR(name: "Test", entity: .mock)
     }
     
     static var mockList: [Self] {
         var result = [CategoryVDR]()
         for i in 0..<10 {
-            result.append(CategoryVDR(name: "\(i) Test"))
+            result.append(CategoryVDR(name: "\(i) Test", entity: .mock))
         }
         return result
+    }
+}
+
+extension CategoryVDR {
+    static func fromEntity(_ entity: CategoryEntity) -> CategoryVDR {
+        CategoryVDR(name: entity.name, entity: entity)
     }
 }
