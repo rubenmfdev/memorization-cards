@@ -28,6 +28,7 @@ struct CardsExerciceView: View {
                 isCardResolved: self.$viewModel.isCardResolved
             ) {
                 Text(self.viewModel.currentCard.1)
+                    .foregroundColor(Color.black)
             }
             .padding(.bottom, 60)
             HStack {
